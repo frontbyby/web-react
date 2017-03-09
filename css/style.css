@@ -1,0 +1,60 @@
+body{
+    margin:0 auto;
+    font-size:12px;
+}
+ul,li{
+    list-style: none
+}
+a{
+    text-decoration:none;
+}
+img{
+    vertical-align: middle;
+}
+.big-center{
+    width:301px;
+    overflow: hidden;
+    background:#eee;
+    margin:5px auto;
+    padding:5px;
+}
+.oneweb{
+    overflow: hidden;
+    background:#fff;
+    border:1px solid #eee;
+}
+.clearfix::after{content:" ";display:block;clear:both;}
+.ow-left{
+  float:left;
+}
+.nick-img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+.ow-right{
+    float:left;
+    width:70%;
+    margin:10px 10px;
+}
+.ow-nick{
+    margin-bottom:5px;
+}
+.ow-footer{
+    border-top:1px solid lightgray;
+    text-align:center;
+}
+.ow-footer ul li{
+    float:left;
+    width:62px; 
+}
+.li-side-border{ 
+    
+    border-right:1px solid lightgray;  
+}
+.pic-left{
+    float:left;
+}
+.rf{
+    margin-top:30px;
+}
